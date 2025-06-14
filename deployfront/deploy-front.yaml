@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: front
-        image: iheb1999/fvv8
+        image: iheb1999/fvv9
         ports:
         - containerPort: 80
