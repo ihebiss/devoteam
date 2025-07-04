@@ -19,7 +19,7 @@ spec:
         name: mysqldb
         volumeMounts:
             - mountPath: /var/lib/mysql
-              name: data-volumep
+              name: data-volume
         env:
         - name:  MYSQL_DATABASE
           value: devoteamteam33
@@ -29,6 +29,6 @@ spec:
         - containerPort: 3306
         
       volumes:
-        - name: data-volumep
+        - name: data-volume
           persistentVolumeClaim:
             claimName: volume-db
