@@ -4,7 +4,7 @@
 -rw-------  1 samtesfr1 samtesfr1 1704 Jul  5 12:30 keycloak.key
 -rw-r--r--  1 samtesfr1 samtesfr1  244 Jul  5 12:28 san.cnf
 2 - generate crt 
- # openssl x509 -req -in keycloak.csr --signkey keycloak.key  -out keycloak.crt -days 365 -extfile san.cnf 
+ # openssl x509 -req -in keycloak.csr --signkey keycloak.key  -out keycloak.crt -days 365 -extensions req_ext -extfile san.cnf 
 Certificate request self-signature ok
 subject=CN = 35.236.157.211
 samtesfr1@cloudshell:~/ihebissaoui-main/deploykeycloack (norse-wavelet-464923-d2)$ ll
