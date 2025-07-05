@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: front
-        image: iheb1999/devofront:v5
+        image: iheb1999/devfront:v5
         ports:
         - containerPort: 80
