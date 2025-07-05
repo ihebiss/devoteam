@@ -14,4 +14,4 @@ spec:
       port: 8443
       targetPort: 8443  
   type: LoadBalancer
-  loadBalancerIP: 34.81.124.116
+  
