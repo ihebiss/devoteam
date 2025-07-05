@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: iheb1999/devbac:v3
+        image: iheb1999/devobac:v4
         ports:
         - containerPort: 8081
