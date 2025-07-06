@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  annotations:
+   backup.velero.io/backup-volumes: volume-db
   name: backend-deployment
   namespace: backend
   labels:
