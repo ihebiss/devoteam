@@ -1,8 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
-annotations:
-   backup.velero.io/backup-volumes: volume-claim
+
 metadata:
+  annotations:
+   backup.velero.io/backup-volumes: volume-claim
   name: keycloak
   namespace: keycloak
   labels:
