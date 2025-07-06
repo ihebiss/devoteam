@@ -1,5 +1,7 @@
 apiVersion: apps/v1
 kind: StatefulSet
+annotations:
+   backup.velero.io/backup-volumes: volume-claim
 metadata:
   name: postgresql-db
   namespace: keycloak
